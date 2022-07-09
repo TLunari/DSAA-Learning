@@ -20,13 +20,12 @@ string analysis(int number) {
 int main(int argc, char const *argv[])
 {
 	ios_base::sync_with_stdio(false);
-    	cin.tie(NULL);
+	cin.tie(NULL);
 	cout.tie(NULL);
 
 	int wNumber;
 	cin >> wNumber;
 	cout << analysis(wNumber);
-
 
 	return 0;
 }
